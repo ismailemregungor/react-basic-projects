@@ -1,0 +1,39 @@
+.App {
+    text-align: center;
+    background-color: #30d5c8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #333;
+    padding: 100px;
+  }
+
+.container{  
+  padding: 50px;
+}
+
+  ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  li{
+    padding: 5px 20px;
+    width: 350px;
+    background-color: #e8e8e8;
+    list-style-type: none;
+    text-align: start;
+    margin-top: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: .7px;
+  }
+  Button{
+    border: none;
+    letter-spacing: 3px;
+    font-size: 30px;
+    transition: .3s;
+  }
